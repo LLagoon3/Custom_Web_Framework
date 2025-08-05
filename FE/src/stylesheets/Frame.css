@@ -1,0 +1,27 @@
+
+.navigation {
+    width: 65rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: var(--font-bold-r);
+}
+
+.information {
+    width: 65rem;
+    height: 9.25rem;
+    align-content: center;
+    text-align: center;
+    font: var(--font-display-l);
+}
+
+.hug-frame {
+    width: min-content;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: auto;
+}

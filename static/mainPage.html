@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교육용 페이지</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="stylesheets/foundation.css">
+    <link rel="stylesheet" href="stylesheets/MainPage.css">
+    <link rel="stylesheet" href="stylesheets/Frame.css">
+    <link rel="stylesheet" href="stylesheets/Button.css">
+    <script type="module" src="scripts/mainPage.js" defer></script>
+</head>
+
+<body>
+    <div class="navigation">
+        <a href="/was/" method="GET">
+            <h3>HELLO, WEB!</h3>
+        </a>
+        <div class="navigation-right-group" id="navigation-right-group"> </div>
+    </div>
+    <section class="hero">
+        <p>부스트캠프 백엔드 교육용 페이지</p>
+        <h2>HELLO, WEB! 입니다.</h2>
+    </section>
+    <section class="post-table" id="post-table">
+        <div id="post-count"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>작성일자</th>
+                    <th>조회수</th>
+                </tr>
+            </thead>
+            <tbody id="post-group">
+            </tbody>
+        </table>
+        <footer>
+            <ul class="pagination" id="pagination"></ul>
+            <div class="footer-right-group" id="footer-right-group">
+            </div>
+        </footer>
+    </section>
+</body>

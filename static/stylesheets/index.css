@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+@import "./foundation.css";
+@import "./Button.css";
+@import "./Frame.css";
+@import "./InputBox.css";
+@import "./MainPage.css";
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* .root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+} */
+
+/* .body {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .span {
+    font: var(--font-bold-s);
+    color: var(--color-black);
+} */
+
+/* a {
+    font: var(--font-bold-s);
+    color: var(--color-primary);
+    text-decoration: none;
+} */
+
+.signup-info {
+    text-align: center;
+}
+
+.text-link{
+    text-decoration: none;
+}

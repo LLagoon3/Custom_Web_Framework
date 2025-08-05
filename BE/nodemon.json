@@ -1,0 +1,5 @@
+{
+  "ext": "ts,tsx",
+  "ignore": ["node_modules"],
+  "exec": "tsx app.ts"
+}

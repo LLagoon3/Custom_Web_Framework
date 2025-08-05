@@ -1,0 +1,6 @@
+.information {
+    display: flex;
+    margin-top: 30rem;
+    flex-direction: column;
+    gap: 4rem;
+}

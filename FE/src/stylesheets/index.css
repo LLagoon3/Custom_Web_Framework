@@ -1,0 +1,29 @@
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+@import "./foundation.css";
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+span {
+    font: var(--font-bold-s);
+    color: var(--color-black);
+}
+
+a {
+    font: var(--font-bold-s);
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.signup-info {
+    text-align: center;
+}

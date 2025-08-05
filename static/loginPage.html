@@ -1,0 +1,29 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교육용 페이지</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <script type="module" src="scripts/loginPage.js" defer></script>
+</head>
+
+<body>
+    <div class="navigation">
+        <a href="/was/" method="GET">
+            <h3>HELLO, WEB!</h3>
+        </a>
+    </div>
+    <div class="information">
+        <h1>로그인</h1>
+    </div>
+    <form action="http://localhost:3000/user/login" method="POST">
+        <div class="hug-frame" id="input-group">
+            
+        </div>
+        <div class="hug-frame" id="submit-group">
+            <span class="signup-info">
+                아직 회원가입을 안하셨나요?
+                <a class="text-link" href="http://localhost:3000/was/register"> 회원가입하기</a>
+            </span>
+        </div>
+    </form>
+</body>

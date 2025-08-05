@@ -1,0 +1,29 @@
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font: var(--font-bold-s);
+  transition: background-color 0.3s ease;
+}
+.small {
+  padding: 0.5rem 1rem;
+}
+.large {
+  width: 20rem;
+  padding: 0.625rem 0;
+}
+
+.button:hover:enabled {
+  background-color: var(--color-black);
+}
+
+.button:focus:enabled {
+  outline: 2px solid var(--color-primary);
+}
+
+.button:disabled {
+  background-color: var(--color-gray-100);
+  cursor: not-allowed;
+}
