@@ -1,4 +1,4 @@
-# WEB-BE-P2-WAS
+# Custom Web Framework
 
 <details>
 <summary>ReadMe</summary>
